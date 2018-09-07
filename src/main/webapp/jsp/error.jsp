@@ -2,10 +2,11 @@
 <!doctype html>
 <html>
 <head>
-	<title>show name</title>
+	<title>error page</title>
+	<script src="static/jquery-1-11-3-min.js"></script>
 </head>
 <body>
-	<h1>Welcome</h1> ${name }<h1>访问此页面</h1>
+	<h2> ${error} </h2>
 
 </body>
 </html>

@@ -2,10 +2,10 @@
 <!doctype html>
 <html>
 <head>
-	<title>error page</title>
+	<title>show name</title>
 </head>
 <body>
-	<h2> ${error } </h2>
+	<h1>Welcome</h1> ${name}<h1>访问此页面</h1>
 
 </body>
 </html>
