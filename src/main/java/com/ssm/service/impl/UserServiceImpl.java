@@ -13,8 +13,18 @@ public class UserServiceImpl implements IUserService {
     public UserMapper userMapper;
 
     @Override
-    public User getUserById(int id) {
+    public User getUserById(String id) {
         return userMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public int insertSelective(User user) {
+        return userMapper.insertSelective(user);
+    }
+
+    @Override
+    public User checkUserInfo(User user) {
+        return userMapper.checkUserInfo(user);
     }
 
 }
